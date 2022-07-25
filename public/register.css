@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: sticky;
+    border-radius: 7px;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(go.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 20px 0 30px 0;
+}
+
+.h2 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: large;
+}
+
+form {
+    margin-top: 10em;
+    margin-left: 33em;
+    text-align: center;
+    border-radius: 10px;
+    background-image: linear-gradient(270deg, #ff00aa 0%, #86acf4 74%);
+    width: 30em;
+    height: 30em;
+    padding-top: 2.5em;
+    border-radius: 60px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+form input {
+    text-align: center;
+    border: none;
+    border-radius: 5em;
+    background-color: whitesmoke;
+    width: 30em;
+    height: 2em;
+    margin-top: 0.5em;
+}
+
+form button {
+    margin: 7px 0;
+    opacity: 1.0;
+    width: 220px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background: #2f2f2f;
+    color: #fff;
+    font-size: 22px;
+    border-radius: 40px;
+    text-align: center;
+    box-shadow: 0 6px 20px -5px rgba(0, 0, 0, 0.4);
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.username {
+    text-align: center;
+    border: none;
+    border-radius: 5em;
+    background-color: whitesmoke;
+    width: 30em;
+    height: 2.5em;
+    margin-top: 0.5em;
+}
+
+.errors {
+    text-align: center;
+    margin-top: -2em;
+    margin-left: -1em;
+    color: black;
+}

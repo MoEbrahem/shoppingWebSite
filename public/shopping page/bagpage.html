@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Bag</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <script>
+        const num1 = 1000;
+        var sum1, sum2, sum3, sum4, sum5, sum6, sum7, sum8, sum9, sum10, sum11;
+
+        function add1() {
+            let qunt1 = document.getElementById("qunt1").value;
+            sum1 = num1 * qunt1;
+            document.getElementById("result").innerHTML = this.sum1;
+        }
+
+        function add2() {
+            let qunt2 = document.getElementById("qunt2").value;
+            sum1 = sum1;
+            sum2 = num1 * qunt2;
+            document.getElementById("result").innerHTML = sum1 + this.sum2;
+        }
+
+        function add3() {
+            let qunt3 = document.getElementById("qunt3").value;
+            sum1 = sum1;
+            sum2 = sum2;
+            sum3 = num1 * qunt3;
+            document.getElementById("result").innerHTML = sum1 + sum2 + this.sum3;
+        }
+
+        function add4() {
+            let qunt4 = document.getElementById("qunt4").value;
+            sum1 = sum1;
+            sum2 = sum2;
+            sum3 = sum3;
+            sum4 = num1 * qunt4;
+            document.getElementById("result").innerHTML = sum1 + sum2 + sum3 + this.sum4;
+        }
+
+        function add5() {
+            let qunt5 = document.getElementById("qunt5").value;
+            sum1 = sum1;
+            sum2 = sum2;
+            sum3 = sum3;
+            sum4 = sum4;
+            sum5 = num1 * qunt5;
+            document.getElementById("result").innerHTML = sum1 + sum2 + sum3 + sum4 + this.sum5;
+        }
+
+        function add6() {
+            let qunt6 = document.getElementById("qunt6").value;
+            sum1 = sum1;
+            sum2 = sum2;
+            sum3 = sum3;
+            sum4 = sum4;
+            sum5 = sum5;
+            sum6 = num1 * qunt6;
+            document.getElementById("result").innerHTML = sum1 + sum2 + sum3 + sum4 + sum5 + this.sum6;
+        }
+
+        function add7() {
+            let qunt7 = document.getElementById("qunt7").value;
+            sum1 = sum1;
+            sum2 = sum2;
+            sum3 = sum3;
+            sum4 = sum4;
+            sum5 = sum5;
+            sum6 = sum6;
+            sum7 = num1 * qunt7;
+            document.getElementById("result").innerHTML = sum1 + sum2 + sum3 + sum4 + sum5 + sum6 + this.sum7;
+        }
+
+        function add8() {
+            let qunt8 = document.getElementById("qunt8").value;
+            sum1 = sum1;
+            sum2 = sum2;
+            sum3 = sum3;
+            sum4 = sum4;
+            sum5 = sum5;
+            sum6 = sum6;
+            sum7 = sum7;
+            sum8 = num1 * qunt8;
+            document.getElementById("result").innerHTML = sum1 + sum2 + sum3 + sum4 + sum5 + sum6 + sum7 + this.sum8;
+        }
+
+        function add9() {
+            let qunt9 = document.getElementById("qunt9").value;
+            sum1 = sum1;
+            sum2 = sum2;
+            sum3 = sum3;
+            sum4 = sum4;
+            sum5 = sum5;
+            sum6 = sum6;
+            sum7 = sum7;
+            sum8 = sum8;
+            sum9 = num1 * qunt9;
+            document.getElementById("result").innerHTML = sum1 + sum2 + sum3 + sum4 + sum5 + sum6 + sum7 + sum8 + this.sum9;
+        }
+
+        function add10() {
+            let qunt10 = document.getElementById("qunt10").value;
+            sum1 = sum1;
+            sum2 = sum2;
+            sum3 = sum3;
+            sum4 = sum4;
+            sum5 = sum5;
+            sum6 = sum6;
+            sum7 = sum7;
+            sum8 = sum8;
+            sum9 = sum9;
+            sum10 = num1 * qunt10;
+            document.getElementById("result").innerHTML = sum1 + sum2 + sum3 + sum4 + sum5 + sum6 + sum7 + sum8 + sum9 + this.sum10;
+        }
+
+        function add11() {
+            let qunt11 = document.getElementById("qunt11").value;
+            sum1 = sum1;
+            sum2 = sum2;
+            sum3 = sum3;
+            sum4 = sum4;
+            sum5 = sum5;
+            sum6 = sum6;
+            sum7 = sum7;
+            sum8 = sum8;
+            sum9 = sum9;
+            sum10 = sum10;
+            sum11 = num1 * qunt11;
+            document.getElementById("result").innerHTML = sum1 + sum2 + sum3 + sum4 + sum5 + sum6 + sum7 + sum8 + sum9 + sum10 + this.sum11;
+        }
+    </script>
+    <div class="container">
+        <div class="cart">
+            <div class="products">
+                <div class="product">
+                    <img src="img/bag1.jpg">
+                    <div class="product-info">
+                        <h3 class="product-name">New Bag</h3>
+                        <h4 class="product-price"><strike style="color: red;"><i class="fa fa-usd" aria-hidden="true"></i>2000</strike> <span id="num1">1000</span></h4>
+                        <h4 class="product-offer">50%</h4>
+                        <p class="product-quantity">Qnt: <input id="qunt1" value="0">
+                            <p class="product-remove">
+                                <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                                <span><button id="btn" onclick='add1()'> ADD TO CART</button></span>
+                            </p>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="img/bag2.jpg">
+                    <div class="product-info">
+                        <h3 class="product-name">New Bag</h3>
+                        <h4 class="product-price"><strike style="color: red;"><i class="fa fa-usd" aria-hidden="true"></i>2000</strike> <i class="fa fa-usd" aria-hidden="true"></i>1000</h4>
+                        <h4 class="product-offer">50%</h4>
+                        <p class="product-quantity">Qnt: <input id="qunt2" value="0">
+                            <p class="product-remove">
+                                <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                                <span><button id="btn" onclick='add2()'> ADD TO CART</button></span>
+                            </p>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="img/bag3.jpg">
+                    <div class="product-info">
+                        <h3 class="product-name">New Bag</h3>
+                        <h4 class="product-price"><strike style="color: red;"><i class="fa fa-usd" aria-hidden="true"></i>2000</strike> <i class="fa fa-usd" aria-hidden="true"></i>1000</h4>
+                        <h4 class="product-offer">50%</h4>
+                        <p class="product-quantity">Qnt: <input id="qunt3" value="0">
+                            <p class="product-remove">
+                                <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                                <span><button id="btn" onclick='add3()'> ADD TO CART</button></span>
+                            </p>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="img/bag4.jpg">
+                    <div class="product-info">
+                        <h3 class="product-name">New Bag</h3>
+                        <h4 class="product-price"><strike style="color: red;"><i class="fa fa-usd" aria-hidden="true"></i>2000</strike> <i class="fa fa-usd" aria-hidden="true"></i>1000</h4>
+                        <h4 class="product-offer">50%</h4>
+                        <p class="product-quantity">Qnt: <input id="qunt4">
+                            <p class="product-remove">
+                                <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                                <span><button id="btn" onclick='add4()'> ADD TO CART</button></span>
+                            </p>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="img/bag5.jpg">
+                    <div class="product-info">
+                        <h3 class="product-name">New Bag</h3>
+                        <h4 class="product-price"><strike style="color: red;"><i class="fa fa-usd" aria-hidden="true"></i>2000</strike> <i class="fa fa-usd" aria-hidden="true"></i>1000</h4>
+                        <h4 class="product-offer">50%</h4>
+                        <p class="product-quantity">Qnt: <input id="qunt5">
+                            <p class="product-remove">
+                                <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                                <span><button id="btn" onclick='add5()'> ADD TO CART</button></span>
+                            </p>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="img/bag6.jpg">
+                    <div class="product-info">
+                        <h3 class="product-name">New Bag</h3>
+                        <h4 class="product-price"><strike style="color: red;"><i class="fa fa-usd" aria-hidden="true"></i>2000</strike> <i class="fa fa-usd" aria-hidden="true"></i>1000</h4>
+                        <h4 class="product-offer">50%</h4>
+                        <p class="product-quantity">Qnt: <input id="qunt6">
+                            <p class="product-remove">
+                                <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                                <span><button id="btn" onclick='add6()'> ADD TO CART</button></span>
+                            </p>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="img/bag7.jpg">
+                    <div class="product-info">
+                        <h3 class="product-name">New Bag</h3>
+                        <h4 class="product-price"><strike style="color: red;"><i class="fa fa-usd" aria-hidden="true"></i>2000</strike> <i class="fa fa-usd" aria-hidden="true"></i>1000</h4>
+                        <h4 class="product-offer">50%</h4>
+                        <p class="product-quantity">Qnt: <input id="qunt7">
+                            <p class="product-remove">
+                                <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                                <span><button id="btn" onclick='add7()'> ADD TO CART</button></span>
+                            </p>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="img/bag8.jpg">
+                    <div class="product-info">
+                        <h3 class="product-name">New Bag</h3>
+                        <h4 class="product-price"><strike style="color: red;"><i class="fa fa-usd" aria-hidden="true"></i>2000</strike> <i class="fa fa-usd" aria-hidden="true"></i>1000</h4>
+                        <h4 class="product-offer">50%</h4>
+                        <p class="product-quantity">Qnt: <input id="qunt8">
+                            <p class="product-remove">
+                                <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                                <span><button id="btn" onclick='add8()'> ADD TO CART</button></span>
+                            </p>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="img/bag9.jpg">
+                    <div class="product-info">
+                        <h3 class="product-name">New Bag</h3>
+                        <h4 class="product-price"><strike style="color: red;"><i class="fa fa-usd" aria-hidden="true"></i>2000</strike> <i class="fa fa-usd" aria-hidden="true"></i>1000</h4>
+                        <h4 class="product-offer">50%</h4>
+                        <p class="product-quantity">Qnt: <input id="qunt9">
+                            <p class="product-remove">
+                                <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                                <span><button id="btn" onclick='add9()'> ADD TO CART</button></span>
+                            </p>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="img/bag10.jpg">
+                    <div class="product-info">
+                        <h3 class="product-name">New Bag</h3>
+                        <h4 class="product-price"><strike style="color: red;"><i class="fa fa-usd" aria-hidden="true"></i>2000</strike> <i class="fa fa-usd" aria-hidden="true"></i>1000</h4>
+                        <h4 class="product-offer">40%</h4>
+                        <p class="product-quantity">Qnt: <input id="qunt10">
+                            <p class="product-remove">
+                                <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                                <span><button id="btn" onclick='add10()'> ADD TO CART</button></span>
+                            </p>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="img/bag11.jpg">
+                    <div class="product-info">
+                        <h3 class="product-name">New Bag</h3>
+                        <h4 class="product-price"><strike style="color: red;"><i class="fa fa-usd" aria-hidden="true"></i>2000</strike> <i class="fa fa-usd" aria-hidden="true"></i>1000</h4>
+                        <h4 class="product-offer">40%</h4>
+                        <p class="product-quantity">Qnt: <input id="qunt11">
+                            <p class="product-remove">
+                                <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                                <span><button id="btn" onclick='add11()'> ADD TO CART</button></span>
+                            </p>
+                    </div>
+                </div>
+            </div>
+            <div class="cart-total">
+                <h2 style="color:tomato; text-align: center; margin-bottom: 40px;">Shopping Cart</h2>
+                <p>
+                    <span>Total Price</span>
+                    <span id="result"><i class="fa fa-usd" aria-hidden="true"></i></span>
+                </p>
+                <a target="_blank" href="payment.html">Proceed to Checkout</a>
+                <center>
+                    <h5>*please make sure you fill all quantities*!</h5>
+                </center>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+
+</html>

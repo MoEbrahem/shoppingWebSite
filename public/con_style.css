@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+* {
+    font-family: 'Comfortaa', cursive;
+}
+
+body {
+    position: sticky;
+    border-radius: 7px;
+    min-height: 150vh;
+    background-position: center;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    background-image: url(img/signupbackground.jpg);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 0px 100px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.logo img {
+    width: 200px;
+    height: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(5, 5, 5);
+    ;
+}
+
+.navbar ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: tomato;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after {
+    width: 100%;
+}
+
+.h2 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: large;
+    color: tomato;
+}
+
+.container {
+    padding: 0;
+    height: 100vh;
+}
+
+form {
+    margin-left: 33em;
+    text-align: center;
+    border-radius: 10px;
+    width: 30em;
+    height: 53em;
+    border-radius: 7px;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, .2);
+    margin: 100px 525px;
+}
+
+form input {
+    text-align: center;
+    border: none;
+    border-radius: 5em;
+    background-color: whitesmoke;
+    width: 30em;
+    height: 2em;
+    margin-top: 0.5em;
+}
+
+form textarea {
+    text-align: center;
+    border: none;
+    border-radius: 5em;
+    background-color: whitesmoke;
+    width: 30em;
+    height: 20em;
+    margin-top: 0.5em;
+}
+
+form button {
+    margin: 7px 0;
+    opacity: 1.0;
+    width: 220px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background: tomato;
+    color: #fff;
+    font-size: 22px;
+    border-radius: 7px;
+    text-align: center;
+    box-shadow: 0 6px 20px -5px rgba(0, 0, 0, 0.4);
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: red;
+}
+
+.username {
+    text-align: center;
+    border: none;
+    border-radius: 5em;
+    background-color: whitesmoke;
+    width: 30em;
+    height: 2.5em;
+    margin-top: 0.5em;
+}
+
+.errors {
+    text-align: center;
+    margin-top: -2em;
+    margin-left: -1em;
+    color: black;
+}
+
+.team-info {
+    margin: 100px 100px 200px 400px;
+}
+
+.social_icons a {
+    color: tomato;
+    margin-right: 30px;
+    font-size: 3em;
+}
+
+.social_icons #facebook:hover {
+    color: #4267B2;
+}
+
+.social_icons #instgram:hover {
+    color: #8a3ab9;
+}
+
+.social_icons #twitter:hover {
+    color: #1DA1F2;
+}
+
+.social_icons #youtube:hover {
+    color: #FF0000;
+}
+
+.social_icons #gmail:hover {
+    color: #4285F4;
+}
+
+.social_icons #whatsapp:hover {
+    color: green;
+}
+
+.social_icons #linkedin:hover {
+    color: #4285F4;
+}
+
+table tr {
+    height: 50px;
+    ;
+}
